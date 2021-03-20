@@ -1,8 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
