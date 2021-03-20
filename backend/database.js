@@ -3,7 +3,7 @@ const { config } = require('./condig');
 
 const { database, host, password, port, user } = config;
 const mysqConn = mysql.createConnection({
-    database: 'attendance', host: 'localhost', password: 'password', port: 3306, user: "root"
+    database, host, password, port, user
 });
 
 mysqConn.connect((err) => {
